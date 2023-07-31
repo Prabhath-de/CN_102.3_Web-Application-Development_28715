@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Text</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .fk {
+            text-align: center;
+        }
+
+        
+        form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 300px;
+            margin: 0 auto;
+            background-color: aquamarine;
+        }
+        
+        input:focus, select:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="text.php" method="post">
+        <label for="fname">First Name</label>
+        <input placeholder="Enter First Name" id="fname" name="fname" required>
+        <br><br>
+        <label for="lname">Last Name</label>
+        <input placeholder="Enter Last Name" id="lname" name="lname" required>
+        <br><br>
+        <label for="uname">User Name</label>
+        <input placeholder="Enter User Name" id="uname" name="uname" required>
+        <br><br>
+        <label for="pwd">Password</label>
+        <input type="text" id="pwd" name="pwd" required>
+        <br><br>
+        <label for="gender">Gender</label><br>
+        <input type="radio" id="gender" name="gender" value="female" required>
+        <label for="f">Female</label>
+        <input type="radio" id="gender" name="gender" value="male" required>
+        <label for="m">Male</label>
+        <br><br>
+        <label for="ayear">Academic Year</label><br>
+        <select id="ayear" name="ayear" required>
+            <option value="1y">1st Year</option>
+            <option value="2y">2nd Year</option>
+            <option value="3y">3rd Year</option>
+            <option value="4y">4th Year</option>
+        </select>
+        <br><br>
+        <label for="email">Email</label>
+        <input placeholder="Enter Email" id="email" name="email" required>
+        <br><br>
+        <label for="pnum">Phone Number</label>
+        <input placeholder="Enter Phone" id="pnum" name="pnum" required>
+        <br><br>
+        <input type="button" value="Submit" class="fk">
+    </form>
+</body>
+</html>
