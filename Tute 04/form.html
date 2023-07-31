@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form</title>
+    <style>
+        .jk{
+            border: 2px solid black;
+            padding: 10px;
+            padding-right: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Simple Form</h1>
+    <form class="jk">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" required>
+        <br><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" required>
+        <br><br>
+        <label for="mnum">Mobile Number</label>
+        <input type="text" id="mnum" name="mnum" required>
+        <br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" id="gender" name="gender" value="female" required>
+            <label for="f">Female</label>
+            <input type="radio" id="gender" name="gender" value="male" required>
+            <label for="m">Male</label>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" required>
+        <br><br>
+        <label for="color">Favorite Colour</label>
+        <input type="checkbox" id="red" name="color" value="red">
+        <label for="red">Red</label>
+        <input type="checkbox" id="blue" name="color" value="blue">
+        <label for="blue">Blue</label>
+        <input type="checkbox" id="green" name="color" value="green">
+        <label for="green">Green</label>
+        <br><br>
+        <label for="ad">Additional Details</label>
+        <input type="text" id="ad" name="ad" required>
+        <br><br>
+        <input type="checkbox" id="terms" name="terms" required><label for="terms">I agree to the terms and conditions</label>
+        <br><br>
+        <input type="button" value="Submit"><input type="button" value="reset">
+    </form>
+    <br><br>
+    <form class="jk">
+        <h1>Car Registration</h1>
+        <label for="name">Owner Name</label>
+        <input placeholder="Owner Name" id="name" name="name" required>
+        <br><br>
+        <label for="email">Email</label>
+        <input placeholder="Email" id="email" name="email" required>
+        <br><br>
+        <label for="pnum">Phone Number</label>
+        <input placeholder="Phone Number" id="pnum" name="pnum" required>
+        <br><br>
+        <label for="country">Country</label>
+        <select id="country" name="country" required>
+            <option value="sl">Sri Lanka</option>
+            <option value="i">India</option>
+            <option value="j">Japan</option>
+            <option value="usa">USA</option>
+        </select>
+        <br><br>
+        <label for="cm">Car Model</label>
+        <input type="text" id="cm" name="cm" required>
+        <br><br>
+        <label for="year">Year</label>
+        <select id="year" name="year" required>
+            <option value="">Select</option>
+            <option value="1999">1999</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="a2001">After 2001</option>
+        </select>
+        <br><br>
+        <label for="t">Transmission</label>
+        <input type="radio" id="t" name="t" value="manual" required>
+        <label for="manual">Manual</label>
+        <input type="radio" id="t" name="t" value="a" required>
+        <label for="a">Auto</label>
+        <br><br>
+        <label for="o">Other</label>
+        <input type="text" id="o" name="o" required>
+        <br><br>
+        <input type="checkbox" id="term" name="term" required><label for="term">I agree to the conditions and terms</label>
+        <br><br>
+        <input type="button" value="Submit"><input type="button" value="Reset">
+    </form>
+</body>
+</html>
