@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <style>
+            body{
+                background-image: url(https://tse3.mm.bing.net/th?id=OIP.bXGge1ym467af6Lu_qyVvwHaEK&pid=Api&P=0&w=300&h=300);
+            }
+            .jk{
+                text-align: justify;
+                text-decoration-color: black;
+            }
+            .center-box {
+            width: 600px;
+            height: 510px; 
+            background-color: blue; 
+            margin: 0 auto;
+            }
+            .myg{
+                margin-left: 40px;
+                margin-left: 40px;
+                text-align: center;
+                width: 500px;
+                height: 50px;
+                background-color: orange;
+            }
+            .fk{
+                margin-top: 20px;
+                background-color: green;
+            }
+            .nj{
+                margin-top: 20px;
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="center-box">
+        <form class="jk">
+            <h1 class="myg">Sign Up</h1>
+            <label for="fname">First Name</label>
+        <input placeholder="Enter First Name" id="fname" name="fname" required>
+        <br><br>
+        <label for="lname">Last Name</label>
+        <input placeholder="Enter Last Name" id="lname" name="lname" required>
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <select id="dob" name="dob" required>
+            <option value="">Date</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <select id="dob" name="dob" required>
+            <option value="">Month</option>
+            <option value="j">January</option>
+            <option value="f">February</option>
+            <option value="m">March</option>
+            <option value="a">April</option>
+        </select>
+        <select id="dob" name="dob" required>
+            <option value="">Year</option>
+            <option value="2000">2000</option>
+            <option value="1999">1999</option>
+            <option value="1998">1998</option>
+            <option value="1997">1997</option>
+        </select>
+        <br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" id="gender" name="gender" value="female" required>
+            <label for="f">Female</label>
+            <input type="radio" id="gender" name="gender" value="male" required>
+            <label for="m">Male</label>
+        <br><br>
+        <label for="country">Country</label>
+        <select id="country" name="country" required>
+            <option value="sl">Sri Lanka</option>
+            <option value="i">India</option>
+            <option value="j">Japan</option>
+            <option value="usa">USA</option>
+        </select>
+        <br><br>
+        <label for="email">Email</label>
+        <input placeholder="Enter Email" id="email" name="email" required>
+        <br><br>
+        <label for="pnum">Phone Number</label>
+        <input placeholder="Enter Phone" id="pnum" name="pnum" required>
+        <br><br>
+        <label for="pwd">Password</label>
+        <input type="text" id="pwd" name="pwd" required>
+        <br><br>
+        <label for="cpwd">Confirm Password</label>
+        <input type="text" id="cpwd" name="cpwd" required>
+        <br><br>
+        <input type="checkbox" id="terms" name="terms"><label for="terms">I agree to the terms of use</label>
+        <br><br>
+        <div class="myg">
+        <input type="button" value="Submit" class="fk"><input type="button" value="cancel" class="nj">
+        </form>
+        </div>
+        </div>
+    </body>
+</html>
